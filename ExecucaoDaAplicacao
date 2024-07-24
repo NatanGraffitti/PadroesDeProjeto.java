@@ -1,0 +1,10 @@
+/*
+
+Para executar a aplicação, use o seguinte comando na linha de comando na pasta do projeto: ./mvnw spring-boot:run 
+
+Criar uma Nova Conta: curl -X POST "http://localhost:8080/contas/criar?numeroConta=12345-6&saldoInicial=1000.00"
+Depositar Dinheiro: curl -X POST "http://localhost:8080/contas/{id}/depositar?valor=500.00"
+Sacar Dinheiro: curl -X POST "http://localhost:8080/contas/{id}/sacar?valor=200.00"
+Obter Saldo: curl -X GET "http://localhost:8080/contas/{id}/saldo"
+
+*/
